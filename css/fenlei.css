@@ -1,0 +1,229 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-13 17:30:20
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-19 14:41:47
+*/
+@import url("base.css");
+
+header{
+	width: 100%;
+	height: 0.88rem;
+
+	padding-top: 0.24rem;
+	padding-right:0.3rem;
+
+	overflow: hidden;
+	display: flex;
+	justify-content: flex-end;
+
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+header a{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	
+}
+header a .iconfont{
+	font-size: 0.4rem;
+	color: #000;
+}
+.title{
+	width: 100%;
+	height: 0.88rem;
+
+}
+.fanhui{
+	display: block;
+
+	width: 22%;
+	height: 100%;
+	float: left;
+	
+
+	font-size: 0.36rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.88rem;
+}
+.title-name{
+	width: 40%;
+	height: 100%;
+	float: left;
+	
+
+	font-size: 0.24rem;
+	color: #000;
+	line-height: 0.88rem;
+
+}
+
+.List{
+	width: 100%;
+	height: 10.36rem;
+	
+	display: flex;
+}
+.list-name{
+	height: 100%;
+	width: 22%;
+
+	
+}
+.list-name ul{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.list-name ul li{
+	width: 100%;
+	height: 0.88rem;
+	background: #f3f4f6;
+	border-bottom: 1px solid #ededee;
+}
+.list-name ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+
+	font-size: 0.24rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.88rem;
+}
+.list-name ul li:nth-child(2){
+	background: #fff;
+}
+
+.listmian{
+	width: 78%;
+	height: 100%;
+	
+}
+.listmian ul{
+	width: 100%;
+	height: auto;
+
+	overflow: hidden;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.listmian ul li{
+	width: 1.4rem;
+	height: auto;
+	padding: 0.1rem;
+	overflow: hidden;	
+	
+}
+.listmian ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+
+}
+.listpic{
+	width: 100%;
+	height: 1.2rem;
+	
+	border-radius: 50%;
+}
+.listpic img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.listname{
+	width: 100%;
+	height: 0.4rem;
+
+
+	font-size: 0.24rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.4rem;
+
+}
+
+
+
+
+
+
+
+/* footer开始 */
+
+footer{
+
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	border-top: 0.01rem solid #acacac;
+
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+
+}
+
+.footer-list{
+	width: 100%;
+	height: 100%;
+	padding: 0.2rem 0.6rem;
+
+	display: flex;
+	justify-content: space-between;
+
+}
+.footer-name{
+	width: 0.60rem;
+	height: 0.65rem;
+	
+
+
+}	
+.footer-name a{
+	width: 100%;
+	height: 100%;
+	display: block;
+
+	display: flex ;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.footer-icon{
+	width: 100%;
+	height: 0.35rem;
+	
+}
+
+
+.footer-icon .iconfont{
+	display: block;
+	text-align: center;
+	font-size: 0.35rem;
+	color: #000;
+
+}
+
+.footer-title{
+	width: 100%;
+	height: 0.18rem;
+	
+
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.18rem;
+	color: #666666;
+
+}
+/* footer结束 
